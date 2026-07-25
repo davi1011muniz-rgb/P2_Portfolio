@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sobre Mim - Davi Muniz</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="imagens/favicon-16x16.png">
+
+</head>
+
+<body>
+
+    <!-- Fundo -->
+
+    <div class="particulas"></div>
+
+    <!-- Menu -->
+
+    <nav class="navegacao">
+
+        <ul class="menu">
+
+            <li>
+                <a href="Home.html" class="menu-link">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="Sobre Mim.html" class="menu-link">
+                    Sobre
+                </a>
+            </li>
+
+            <li>
+                <a href="Portfolio.html" class="menu-link">
+                    Portfólio
+                </a>
+            </li>
+
+            <li>
+                <a href="Contato.html" class="menu-link">
+                    Contato
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Título -->
+
+    <section class="sobre">
+
+        <h1 class="sobre-titulo">
+
+            Sobre Mim
+
+        </h1>
+
+    </section>
+
+    <!-- QUEM SOU -->
+
+    <section class="card">
+
+        <h2>Quem Sou Eu</h2>
+
+        <p>
+
+            Meu nome é Davi Santos Garcia Muniz,
+            tenho 20 anos e sou apaixonado por
+            tecnologia e desenvolvimento de software.
+
+            Atualmente curso Engenharia de Software
+            na Universidade de Vassouras, campus Maricá.
+
+        </p>
+
+    </section>
+
+    <!-- FORMAÇÃO -->
+
+    <section class="card">
+
+        <h2>Formação Acadêmica</h2>
+
+        <p>
+
+            Estou cursando Engenharia de Software,
+            onde venho desenvolvendo conhecimentos
+            em programação, desenvolvimento web,
+            banco de dados, arquitetura de software
+            e boas práticas de desenvolvimento.
+
+        </p>
+
+    </section>
+
+    <!-- FRONT END -->
+
+    <section class="card">
+
+        <h2>Minha Jornada no Front-End</h2>
+
+        <p>
+
+            Desde que conheci o desenvolvimento
+            Front-End, encontrei uma área que une
+            criatividade e lógica.
+
+            Gosto de transformar ideias em interfaces
+            modernas, responsivas e intuitivas.
+
+        </p>
+
+    </section>
+
+    <!-- OBJETIVOS -->
+
+    <section class="card">
+
+        <h2>Objetivos Profissionais</h2>
+
+        <p>
+
+            Meu objetivo é continuar evoluindo
+            como desenvolvedor, adquirir novas
+            habilidades e participar de projetos
+            que gerem impacto positivo para as pessoas.
+
+        </p>
+
+    </section>
+
+    <!-- HABILIDADES -->
+
+    <section class="card">
+
+        <h2>Habilidades</h2>
+
+        <ul class="lista-habilidades">
+
+            <li>HTML</li>
+
+            <li>CSS</li>
+
+            <li>JavaScript</li>
+
+            <li>Python</li>
+
+            <li>Git</li>
+
+            <li>GitHub</li>
+
+            <li>Responsividade</li>
+
+            <li>UI Design</li>
+
+        </ul>
+
+    </section>
+
+    <!-- REDES -->
+
+    <section class="card">
+
+        <h2>Minhas Redes</h2>
+
+        <p>
+
+            Você pode acompanhar meu trabalho
+            através das minhas redes profissionais.
+
+        </p>
+
+        <br>
+
+        <p>
+
+            LinkedIn:
+            <br>
+            <br>
+
+            <a href="https://www.linkedin.com/in/davi-santos-garcia-muniz-164947231/" target="_blank" class="menu-link">
+
+                Acessar LinkedIn
+
+            </a>
+
+        </p>
+
+        <br>
+
+        <p>
+
+            GitHub:
+            <br>
+            <br>
+
+            <a href="https://github.com/davi1011muniz-rgb" target="_blank" class="menu-link">
+
+                Acessar GitHub
+
+            </a>
+
+        </p>
+
+    </section>
+
+    <!-- INSTAGRAM -->
+
+    <section class="instagram-box">
+
+        <h2>
+
+            Meu Instagram
+
+        </h2>
+
+        <br>
+
+        <p>
+
+            Clique no botão abaixo para visitar
+            meu perfil no Instagram.
+
+        </p>
+
+        <br>
+
+        <button id="instagramBtn" class="botao-enviar">
+
+            Clique Aqui
+
+        </button>
+
+    </section>
+
+    <!-- Rodapé -->
+
+    <footer style="
+        text-align:center;
+        padding:40px;">
+
+        <p>
+
+            © 2026 - Davi Muniz
+
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

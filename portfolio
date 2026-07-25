@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio - Davi Muniz</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="imagens/favicon-16x16.png">
+
+</head>
+
+<body>
+
+    <!-- Fundo -->
+
+    <div class="particulas"></div>
+
+    <!-- Menu -->
+
+    <nav class="navegacao">
+
+        <ul class="menu">
+
+            <li>
+                <a href="Home.html" class="menu-link">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="Sobre Mim.html" class="menu-link">
+                    Sobre
+                </a>
+            </li>
+
+            <li>
+                <a href="Portfolio.html" class="menu-link">
+                    Portfólio
+                </a>
+            </li>
+
+            <li>
+                <a href="Contato.html" class="menu-link">
+                    Contato
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Título -->
+
+    <section class="projetos">
+
+        <h1 class="projetos-titulo">
+
+            Meu Portfólio
+
+        </h1>
+
+        <div class="projetos-caixa">
+
+            <!-- Projeto 1 -->
+
+            <div class="projetos-card">
+
+                <img src="imagens/servix.jpg" alt="Servix" class="projeto-imagem">
+
+                <div class="caixa-texto-projetos">
+
+                    <h3 class="info-projetos">
+
+                        Servix
+
+                    </h3>
+
+                    <p>
+
+                        Plataforma desenvolvida para
+                        conectar clientes a prestadores
+                        de serviços autônomos de forma
+                        simples e eficiente.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Projeto 2 -->
+
+            <div class="projetos-card">
+
+                <img src="imagens/carro.jpg" alt="Loja de Carros" class="projeto-imagem">
+
+                <div class="caixa-texto-projetos">
+
+                    <h3 class="info-projetos">
+
+                        Loja de Carros
+
+                    </h3>
+
+                    <p>
+
+                        Projeto de uma concessionária
+                        virtual com visual moderno,
+                        design responsivo e foco
+                        em veículos premium.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Projeto 3 -->
+
+            <div class="projetos-card">
+
+                <img src="imagens/paris.jpg" alt="Viagens" class="projeto-imagem">
+
+                <div class="caixa-texto-projetos">
+
+                    <h3 class="info-projetos">
+
+                        Página de Viagens
+
+                    </h3>
+
+                    <p>
+
+                        Sistema para divulgação
+                        de destinos turísticos,
+                        roteiros e experiências
+                        internacionais.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Projeto 4 -->
+
+            <div class="projetos-card">
+
+                <img src="imagens/Davi.jpg" alt="Portfólio" class="projeto-imagem">
+
+                <div class="caixa-texto-projetos">
+
+                    <h3 class="info-projetos">
+
+                        Meu Portfólio
+
+                    </h3>
+
+                    <p>
+
+                        Site pessoal criado utilizando
+                        HTML, CSS e JavaScript para
+                        apresentar minha trajetória,
+                        habilidades e projetos.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Estatísticas -->
+
+    <section class="card">
+
+        <h2>
+
+            Resumo Profissional
+
+        </h2>
+
+        <br>
+
+        <ul class="lista-habilidades">
+
+            <li>4 Projetos Desenvolvidos</li>
+
+            <li>HTML</li>
+
+            <li>CSS</li>
+
+            <li>JavaScript</li>
+
+            <li>Python</li>
+
+            <li>GitHub</li>
+
+        </ul>
+
+    </section>
+
+    <!-- Objetivos -->
+
+    <section class="card">
+
+        <h2>
+
+            Próximos Projetos
+
+        </h2>
+
+        <p>
+
+            Pretendo desenvolver aplicações web
+            mais completas utilizando JavaScript,
+            banco de dados e frameworks modernos,
+            expandindo cada vez mais minhas
+            habilidades como desenvolvedor.
+
+        </p>
+
+    </section>
+
+    <!-- Rodapé -->
+
+    <footer style="
+        text-align:center;
+        padding:40px;">
+
+        <p>
+
+            © 2026 - Davi Muniz
+
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

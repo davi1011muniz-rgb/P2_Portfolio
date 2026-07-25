@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio - Davi Muniz</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="imagens/favicon-16x16.png">
+
+</head>
+
+<body>
+
+    <!-- Fundo -->
+
+    <div class="particulas"></div>
+
+    <!-- Menu -->
+
+    <nav class="navegacao">
+
+        <ul class="menu">
+
+            <li>
+                <a href="Home.html" class="menu-link">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="Sobre Mim.html" class="menu-link">
+                    Sobre
+                </a>
+            </li>
+
+            <li>
+                <a href="Portfolio.html" class="menu-link">
+                    Portfólio
+                </a>
+            </li>
+
+            <li>
+                <a href="Contato.html" class="menu-link">
+                    Contato
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Cabeçalho -->
+
+    <main class="cabecalho">
+
+        <img src="imagens/Davi.jpg" alt="Davi Muniz" class="foto-perfil">
+
+        <h1>Davi Muniz</h1>
+
+        <p class="cabecalho-sub-titulo" id="tituloDigitado">
+
+            Desenvolvedor Front-End
+
+        </p>
+
+        <h3 id="boasVindas"></h3>
+
+    </main>
+
+    <!-- Vídeo -->
+    <section class="video-section">
+
+        <h2>Vídeo de Apresentação</h2>
+
+        <video controls width="800">
+
+            <source src="video/Sweet Dreams - X-Men Apocalypse (2016).mp4"> 
+
+            Seu navegador não suporta vídeo.
+
+        </video>
+
+    </section>
+
+
+
+
+    <!-- Painel JS -->
+
+    <section class="painel-home">
+
+        <h2>Recursos JavaScript</h2>
+
+        <br>
+
+        <button id="mudarTema" class="botao-enviar">
+
+            Alternar Tema
+
+        </button>
+
+        <br><br>
+
+        <h2 id="contadorVisitas">
+
+            Visitas: 0
+
+        </h2>
+
+        <button id="somarVisita" class="botao-enviar">
+
+            Registrar Visita
+
+        </button>
+
+    </section>
+
+    <!-- Sobre Resumido -->
+
+    <section class="card">
+
+        <h2>Quem Sou Eu</h2>
+
+        <p>
+
+            Meu nome é Davi Santos Garcia Muniz,
+            estudante de Engenharia de Software
+            pela Universidade de Vassouras.
+
+            Sou apaixonado por tecnologia,
+            desenvolvimento web e criação
+            de interfaces modernas.
+
+        </p>
+
+    </section>
+
+    <!-- Objetivos -->
+
+    <section class="card">
+
+        <h2>Objetivos</h2>
+
+        <p>
+
+            Meu objetivo é me tornar um
+            desenvolvedor cada vez mais completo,
+            participando de projetos inovadores
+            e desenvolvendo soluções que gerem
+            impacto positivo para as pessoas.
+
+        </p>
+
+    </section>
+
+    <!-- Tecnologias -->
+
+    <section class="card">
+
+        <h2>Tecnologias</h2>
+
+        <ul class="lista-habilidades">
+
+            <li>HTML</li>
+
+            <li>CSS</li>
+
+            <li>JavaScript</li>
+
+            <li>Python</li>
+
+            <li>Git</li>
+
+            <li>GitHub</li>
+
+        </ul>
+
+    </section>
+
+    <!-- Rodapé -->
+
+    <footer style="
+        text-align:center;
+        padding:40px;
+        margin-top:50px;">
+
+        <p>
+
+            © 2026 - Davi Muniz
+
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,616 @@
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* =========================
+   TEMA PADRÃO (VERMELHO)
+========================= */
+
+:root {
+    --primaria: #b50000;
+    --secundaria: #ff2d2d;
+
+    --escuro: #000000;
+    --maisEscuro: #0a0a0a;
+
+    --claro: #e2e8f0;
+
+    --card: #1c1c1c;
+
+    --vidro: rgba(255, 255, 255, 0.08);
+}
+
+/* =========================
+   TEMA ROXO
+========================= */
+
+.tema-roxo {
+
+    --primaria: #7c3aed;
+    --secundaria: #a855f7;
+
+}
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    background: var(--escuro);
+    color: var(--claro);
+    transition: .4s;
+}
+
+/* =========================
+   PARTÍCULAS
+========================= */
+
+.particulas {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+
+    background:
+
+        radial-gradient(circle at 10% 20%,
+            var(--primaria) 0%,
+            transparent 20%),
+
+        radial-gradient(circle at 90% 80%,
+            var(--secundaria) 0%,
+            transparent 20%),
+
+        var(--maisEscuro);
+
+}
+
+/* =========================
+   MENU
+========================= */
+
+.navegacao {
+
+    position: fixed;
+
+    top: 0;
+
+    width: 100%;
+
+    background: rgba(15, 15, 15, .9);
+
+    backdrop-filter: blur(10px);
+
+    z-index: 1000;
+
+    padding: 20px;
+}
+
+.menu {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 40px;
+
+    list-style: none;
+}
+
+.menu-link {
+
+    color: white;
+
+    text-decoration: none;
+
+    position: relative;
+
+    font-weight: 600;
+}
+
+.menu-link::after {
+
+    content: "";
+
+    width: 0;
+
+    height: 2px;
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: -5px;
+
+    background: var(--primaria);
+
+    transition: .3s;
+}
+
+.menu-link:hover::after {
+
+    width: 100%;
+}
+
+/* =========================
+   HOME
+========================= */
+
+.cabecalho {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+.foto-perfil {
+
+    width: 320px;
+    height: 320px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 4px solid var(--primaria);
+
+    box-shadow: 0 0 30px var(--primaria);
+
+    animation: flutuar 5s infinite;
+}
+
+h1 {
+
+    margin-top: 25px;
+
+    color: var(--primaria);
+
+    font-size: 3rem;
+}
+
+.cabecalho-sub-titulo {
+
+    font-size: 1.3rem;
+
+    color: #cbd5e1;
+}
+
+/* =========================
+   VÍDEO
+========================= */
+
+.video-section {
+
+    text-align: center;
+
+    padding: 60px 20px;
+}
+
+.video-section h2 {
+
+    color: var(--primaria);
+
+    margin-bottom: 30px;
+}
+
+.video-section video {
+
+    width: 80%;
+
+    max-width: 800px;
+
+    border-radius: 20px;
+
+    border: 2px solid var(--vidro);
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+/* =========================
+   CAIXAS PADRÃO
+========================= */
+
+.card {
+
+    max-width: 1000px;
+
+    margin: 30px auto;
+
+    padding: 30px;
+
+    background: var(--card);
+
+    border-radius: 20px;
+
+    border: 1px solid var(--vidro);
+
+    backdrop-filter: blur(10px);
+
+    transition: .3s;
+}
+
+.card:hover {
+
+    transform: translateY(-5px);
+}
+
+.card h2 {
+
+    color: var(--primaria);
+
+    margin-bottom: 20px;
+}
+
+.card p {
+
+    line-height: 1.8;
+}
+
+/* =========================
+   SOBRE
+========================= */
+
+.sobre {
+
+    padding: 120px 20px 50px;
+}
+
+.sobre-titulo {
+
+    text-align: center;
+
+    color: var(--primaria);
+
+    margin-bottom: 50px;
+
+    font-size: 3rem;
+}
+
+/* =========================
+   HABILIDADES
+========================= */
+
+.lista-habilidades {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(200px, 1fr));
+
+    gap: 15px;
+
+    list-style: none;
+
+    margin-top: 20px;
+}
+
+.lista-habilidades li {
+
+    background: #252525;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+    transition: .3s;
+}
+
+.lista-habilidades li:hover {
+
+    background: var(--primaria);
+
+    transform: translateY(-5px);
+}
+
+/* =========================
+   PORTFÓLIO
+========================= */
+
+.projetos {
+
+    min-height: 100vh;
+
+    padding: 120px 20px;
+}
+
+.projetos-titulo {
+
+    text-align: center;
+
+    color: var(--primaria);
+
+    font-size: 3rem;
+
+    margin-bottom: 60px;
+}
+
+.projetos-caixa {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(300px, 1fr));
+
+    gap: 30px;
+}
+
+.projetos-card {
+
+    background: var(--card);
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    transition: .4s;
+}
+
+.projetos-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow:
+        0 0 25px var(--primaria);
+
+}
+
+.projeto-imagem {
+
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+}
+
+.caixa-texto-projetos {
+
+    padding: 20px;
+}
+
+.info-projetos {
+
+    color: var(--primaria);
+
+    margin-bottom: 10px;
+}
+
+/* =========================
+   CONTATO
+========================= */
+
+.contatos {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    padding: 120px 20px;
+}
+
+.contatos-titulo {
+
+    color: var(--primaria);
+
+    margin-bottom: 30px;
+
+    font-size: 3rem;
+}
+
+.formulario-contato {
+
+    width: 100%;
+
+    max-width: 650px;
+
+    background: var(--card);
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    border: 1px solid var(--vidro);
+}
+
+.grupo-form {
+
+    margin-bottom: 20px;
+}
+
+.campo-form {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #252525;
+
+    color: white;
+}
+
+.campo-form:focus {
+
+    outline: 2px solid var(--primaria);
+}
+
+.botao-enviar {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: var(--primaria);
+
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 1rem;
+
+    transition: .3s;
+}
+
+.botao-enviar:hover {
+
+    background: var(--secundaria);
+
+    transform: translateY(-3px);
+}
+
+/* =========================
+   INSTAGRAM
+========================= */
+
+.instagram-box {
+
+    max-width: 700px;
+
+    margin: 40px auto;
+
+    padding: 30px;
+
+    text-align: center;
+
+    background: var(--card);
+
+    border-radius: 20px;
+
+    border: 1px solid var(--vidro);
+}
+
+/* =========================
+   CONTADOR
+========================= */
+
+.painel-home {
+
+    max-width: 500px;
+
+    margin: 40px auto;
+
+    text-align: center;
+
+    padding: 30px;
+
+    background: var(--card);
+
+    border-radius: 20px;
+}
+
+#contadorVisitas {
+
+    margin: 20px 0;
+}
+
+/* =========================
+   ANIMAÇÃO
+========================= */
+
+@keyframes flutuar {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media(max-width:768px) {
+
+    .menu {
+
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .foto-perfil {
+
+        width: 220px;
+        height: 220px;
+    }
+
+    h1 {
+
+        font-size: 2rem;
+    }
+
+    .video-section video {
+
+        width: 95%;
+    }
+
+    #resultado {
+
+        min-height: 25px;
+
+        font-size: 1rem;
+
+        transition: .3s;
+
+    }
+
+    textarea {
+
+        resize: none;
+
+    }
+
+}

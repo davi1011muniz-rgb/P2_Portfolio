@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato - Davi Muniz</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="imagens/favicon-16x16.png">
+
+</head>
+
+<body>
+
+    <!-- Fundo -->
+
+    <div class="particulas"></div>
+
+    <!-- Menu -->
+
+    <nav class="navegacao">
+
+        <ul class="menu">
+
+            <li>
+                <a href="Home.html" class="menu-link">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="Sobre Mim.html" class="menu-link">
+                    Sobre
+                </a>
+            </li>
+
+            <li>
+                <a href="Portfolio.html" class="menu-link">
+                    Portfólio
+                </a>
+            </li>
+
+            <li>
+                <a href="Contato.html" class="menu-link">
+                    Contato
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- CONTATO -->
+
+    <section class="contatos">
+
+        <h1 class="contatos-titulo">
+
+            Entre em Contato
+
+        </h1>
+
+        <form id="formulario" class="formulario-contato">
+
+            <!-- Nome -->
+
+            <div class="grupo-form">
+
+                <input type="text" id="nome" class="campo-form" placeholder="Digite seu nome">
+
+            </div>
+
+            <!-- Email -->
+
+            <div class="grupo-form">
+
+                <input type="email" id="email" class="campo-form" placeholder="Digite seu e-mail">
+
+            </div>
+
+            <!-- Senha -->
+
+            <div class="grupo-form">
+
+                <input type="password" id="senha" class="campo-form" placeholder="Digite uma senha">
+
+            </div>
+
+            <!-- Mensagem -->
+
+            <div class="grupo-form">
+
+                <textarea id="mensagem" class="campo-form" rows="6" placeholder="Digite sua mensagem"></textarea>
+
+            </div>
+
+            <!-- Botão -->
+
+            <button type="submit" class="botao-enviar">
+
+                Enviar Mensagem
+
+            </button>
+
+            <!-- Resultado JS -->
+
+            <p id="resultado" style="
+                margin-top:20px;
+                text-align:center;
+                font-weight:bold;">
+            </p>
+
+        </form>
+
+    </section>
+
+    <!-- CARD EXTRA -->
+
+    <section class="card">
+
+        <h2>
+
+            Informações de Contato
+
+        </h2>
+
+        <br>
+
+        <p>
+
+            📧 Email:
+            <br>
+            davi1011muniz.@gmail.com
+
+        </p>
+
+        <br>
+
+        <p>
+
+            📱 WhatsApp:
+            <br>
+            (21) 99609-6742
+
+        </p>
+
+        <br>
+
+        <p>
+
+            📍 Maricá - RJ
+
+        </p>
+
+    </section>
+
+    <!-- Rodapé -->
+
+    <footer style="
+        text-align:center;
+        padding:40px;">
+
+        <p>
+
+            © 2026 - Davi Muniz
+
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
